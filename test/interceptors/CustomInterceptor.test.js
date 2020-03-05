@@ -14,7 +14,7 @@ test('returns the result of the mock function', function() {
             return ACCESS_TOKEN;
         });
     
-    expect(interceptor.showMockResult()).toBe('access-token to key user_id');
+    expect(interceptor.getAccessToken()).toBe('access-token to key user_id');
 
     spy.mockRestore();
 })
