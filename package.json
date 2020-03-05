@@ -1,0 +1,11 @@
+{
+  "name": "jest_training",
+  "version": "1.0.0",
+  "description": "Unit test with test training",
+  "main": "index.js",
+  "author": "Luis Daniel Assulfi",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  }
+}
