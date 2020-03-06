@@ -1,11 +1,11 @@
-const Calls = require('../libs/calls');
+const $call = require('../libs/calls');
 
 function CustomInterceptor() {
     
-    const $call = new Calls();
-    
     this.getAccessToken = function() {
-        return $call.accessToken.get('user_id');
+        const accessToken= $call.accessToken.get('xpto');
+
+        return accessToken;
     }
 }
 

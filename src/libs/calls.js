@@ -7,4 +7,6 @@ function Calls() {
     }
 }
 
-module.exports = Calls;
+const calls = new Calls();
+
+module.exports = calls;
