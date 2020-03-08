@@ -1,9 +1,6 @@
 // Mocks
-jest.mock('../../src/libs/calls');
-const $calls = require('../../src/libs/calls');
-$calls.accessToken.get.mockImplementation(function() {
-    return 'access-token to key user_id';
-});
+const $calls = require('../mocks/call.mocks');
+const $tracer = require('../mocks/trace.mocks');
 
 const CustomInterceptor = require('../../src/interceptors/CustomInterceptor');
 
