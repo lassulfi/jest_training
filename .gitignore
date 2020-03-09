@@ -101,6 +101,9 @@ dist/
 # FuseBox cache
 .fusebox/
 
+# vscode settings
+.vscode/
+
 # DynamoDB Local files
 .dynamodb/
 
